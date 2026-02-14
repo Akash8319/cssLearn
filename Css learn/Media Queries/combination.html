@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>media Queries</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      #heading {
+        margin-left: 200px;}
+
+      .box {
+        height: 100px;
+        width: 100px;
+        background-color: coral;
+      }
+      
+      @media screen and (min-width: 250px)and (max-width: 300px) {
+        .box {
+          background-color: lightblue;
+          border-radius: 50%;
+        }
+        
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">Media Queries</h1>
+    <div class="box">Box
+    </div>
+    <hr />
+
+  </body>
+</html>

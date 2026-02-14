@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Box Model</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        .button {
+            height: 50px; width: 100px;
+            border: 4px black solid;
+            background-color: aquamarine;
+            border-radius: 10px;
+        }
+        #botton1 {box-sizing: content-box;}
+        #button2 {box-sizing: border-box;}
+    </style>
+</head>
+<body>
+    <button id="botton1" class="button">Click Me</button>
+    <div id="button2" class="button">Click Me</div>
+</body>
+</html>
+
+
